@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "Open";
+    src: url(fonte/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(fonte/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(fonte/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    padding: 12px 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #106EEA;
+    color: white;
+    font-family: "Open";
+    
+    font-size: 22px;
+    font-weight: 350;
+    justify-content: space-between;
+
+}
+
+.vitral{
+    display: flex;
+    flex-direction: row;
+   
+    padding: 21px 180px 21px 180px;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+
+
+.banner {
+    background-image: url(img/fundo.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+   justify-content: space-between;
+   display: flex;
+   width: 600px;
+   font-family: "Open";
+   font-size: 22px;
+   
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.nos{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 150px 12px 190px;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.nos img{
+    height: 670px;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 480px;
+}
+
+.texto{
+    font-size: 26px;
+    text-align: justify;
+    font-family: "Open";
+    font-weight: 450;
+    margin-top: 15px;
+}
+
+.umpouco{
+    font-family: "Bold";
+    color: black;
+    text-align: center;
+    font-size: 38px;
+
+}
+
+span{
+    color: #106EEA;
+}
+
+.sobrenos{
+    padding-top: 40px;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    
+    
+    justify-content: center;
+    padding-left: 45px;
+    margin-bottom: 200px;
+}
+
+
+
+.quadrados{
+    border: 1px solid #1150A3;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F6FE;
+    border-radius: 15px;
+    height: 270px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+
+    
+    
+}
+
+.quadrados img{
+    margin-bottom: 25px;
+    width: 80px;
+    
+}
+.num{
+    font-family: "Open";
+    font-size: 38px;
+}
+
+.tex{
+    font-family: "Regular";
+    font-size: 27px;
+}
+
+#servicos{
+    display: flex;
+
+    text-align: center;
+    padding: 5px 280px;
+    margin-bottom: 70px;
+
+}
+
+
+.tex_produto{
+    font-family: "Bold";
+    font-size: 25px;
+}
+
+
+.produtos{
+    
+    display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+
+align-items: center;
+
+flex-wrap: wrap;
+
+padding-bottom: 150px;
+}
+
+.produto{
+    border: 1px solid #1150A3;
+    height: 230px;
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 40px;
+   
+}
+
+hr{
+    background-color: #1150A3;
+    height: 2px;
+    margin-bottom: 170px;
+}
+
+.pessoas img{
+    height: 600px;
+    border-radius: 5px;
+}
+
+.equipe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.pessoas{
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    margin: 0px 60px;
+}
+
+.nome{
+    padding-top: 30px;
+    font-family: "Poppins";
+    font-size: 27px;
+}
+
+.funcao{
+    font-family: "Regular";
+    font-size: 20px;
+}
+
+.lorem{
+    font-family: "Open";
+    font-size: 30px;
+    padding: 0px 120px;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 95px;
+
+}
+
+#endereco{
+    height: 420px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rua{
+    font-family: "Regular" ;
+
+    font-size: 29px;
+    margin-top: 25px;
+    
+}
+
+#endereco .tex_produto{
+ 
+    font-size: 31px;
+}
+
+
+footer{
+  background-color: #1150A3;
+  padding: 50px 150px;
+  
+  
+
+}
+
+footer nav {
+    display: flex;
+  flex-direction: column;
+ 
+  text-align: center;
+  justify-content: space-between;
+  
+}
+
+footer a{
+    color: white;
+}
