@@ -58,24 +58,34 @@ header{
 
 
 .banner {
+    display: flex;
+    flex-direction: column;
+  
+    
+   
+    text-align: center;
     background-image: url(img/fundo.png);
-    height: 500px;
+    height: 220px;
     background-size: cover;
     background-position: center;
+    padding: 130px 50px 100px 700px;
+    line-height: 4em;
 }
 
 nav {
    justify-content: space-between;
    display: flex;
    width: 600px;
-   font-family: "Open";
-   font-size: 22px;
+   
+   font-size: 25px;
    
 }
 
 a{
+  font-family: "Open";
   color: black;
   text-decoration: none;
+  
   
 }
 
@@ -257,19 +267,13 @@ hr{
 
 }
 
-#endereco{
-    height: 420px;
-    width: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .rua{
     font-family: "Regular" ;
 
     font-size: 29px;
-    margin-top: 25px;
+    margin-top: 40px;
     
 }
 
@@ -280,8 +284,12 @@ hr{
 
 
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   background-color: #1150A3;
-  padding: 50px 150px;
+  padding: 70px 210px;
   
   
 
@@ -293,9 +301,116 @@ footer nav {
  
   text-align: center;
   justify-content: space-between;
+  line-height: 2em;
+  width: 170px;
   
 }
 
 footer a{
+    font-family: "Open";
     color: white;
+    font-size: 25px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0px 160px 150px 160px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#titulo{
+    font-family: "Poppins";
+    font-size: 65px;
+    font-weight: 300;
+}
+
+#subtitulo{
+   font-family: "Regular";
+   font-size: 33px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.nossasredes{
+    font-family: "Open";
+    font-size: 35px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.informacoes input, textarea{
+    
+    background-color: #E5E5E5;
+    font-family: "Bold";
+    font-size: 33px;
+
+border-radius: 13px;
+margin: 0 0 20px 0;
+
+
+}
+
+::placeholder{
+    color: #cacaca;
+}
+
+#ne, #no{
+    height: 80px;
+    padding-left: 25px;
+    width: 256px;
+    
+}
+
+#assunto{
+    height: 80px;
+    padding-left: 25px;
+    width: 600px;
+}
+
+
+
+#endereco{
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+   
+    
+}
+
+#men{
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 600px;
+    height: 160px;
+}
+
+.informacoes button{
+    border-radius: 13px;
+    background-color: #106EEA;
+    color: white;
+    font-family: "Bold";
+   height: 70px;
+    width: 310px;
+    font-size: 31px;
+    
+
+}
+
+
+
+#no{
+    margin-right: 55px;
+}
+
+.redes img{
+    height: 55px;
+    margin-right: 10px;
 }
